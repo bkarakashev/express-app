@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bkarakashev/express-app/issues"
   },
-  "homepage": "https://github.com/bkarakashev/express-app#readme"
+  "homepage": "https://github.com/bkarakashev/express-app#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
