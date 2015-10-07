@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 /* GET status page. */
 router.get('/status', function(req, res) {
-  res.send('200 OK');
+  res.status(200).send('200 OK!');;
 });
 
 module.exports = router;
