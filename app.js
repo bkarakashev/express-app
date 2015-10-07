@@ -22,11 +22,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-/* GET home page. */
-app.get('/status', function(req, res, next) {
-  res.render('status', { title: 'Express New --' });
-});
-
 app.use('/', routes);
 app.use('/users', users);
 

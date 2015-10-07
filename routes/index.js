@@ -6,9 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-/* GET home page. */
-router.get('/status', function(req, res, next) {
-  res.render('status', { title: 'Express New --' });
+/* GET status page. */
+router.get('/status', function(req, res) {
+  res.render('status');
 });
 
 module.exports = router;
